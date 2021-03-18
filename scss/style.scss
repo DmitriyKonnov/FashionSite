@@ -1,7 +1,15 @@
 @import "vars";
-@import "blocks/header";
-@import "blocks/nav";
+@import "reset";
+
+html {
+  font-size: 62.5%;
+}
 
 body {
-  font-size: 65.5%;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
+
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/nav";

@@ -404,33 +404,3 @@ textarea {
   background: #ccc;
   color: #000;
   padding: 0.2em 0; }
-
-html {
-  font-size: 62.5%; }
-
-body {
-  font-size: 1.6rem;
-  line-height: 1.5; }
-
-.container {
-  margin: 0 auto;
-  max-width: 1150px; }
-
-header {
-  color: blue; }
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  font-family: "Poppins", sans-serif; }
-
-.nav__main-menu {
-  display: flex; }
-
-.nav__side-menu {
-  display: flex; }
-
-.nav__side-menu_item img {
-  display: block;
-  width: 2rem;
-  height: 2rem; }
