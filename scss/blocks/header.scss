@@ -1,3 +1,82 @@
-header {
-  color: blue;
+.header {
+  max-height: 100vh;
+  max-width: 100%;
+
+  color: $main-font_color;
+  font-family: $main-font;
+}
+
+.header__page {
+  display: flex;
+
+  height: calc(100vh - 80px);
+  width: 100%;
+
+  position: relative;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: 0;
+  }
+}
+
+.header__page_block1 {
+  flex: 60%;
+}
+
+.header__page_block2 {
+  margin-bottom: 10rem;
+  margin-top: auto;
+
+  flex: 40%;
+  z-index: 1;
+}
+
+.header__title {
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.header__subtitle {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.header__description {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.header__buttons {
+  display: flex;
+}
+
+.herader__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 3.5rem;
+  text-transform: uppercase;
+
+  font-size: 1.8rem;
+  line-height: 1.5;
+
+  &:hover {
+    box-shadow: 0 4px 4px rgba($color: #000000, $alpha: 0.25);
+  }
 }

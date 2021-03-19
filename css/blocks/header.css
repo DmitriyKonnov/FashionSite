@@ -1,2 +1,29 @@
-header {
-  color: blue; }
+.header {
+  max-height: 100vh;
+  max-width: 100%; }
+
+.header__page {
+  display: flex;
+  height: calc(100vh - 80px);
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+  .header__page img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: 0; }
+
+.header__page_block1 {
+  flex: 60%; }
+
+.header__page_block2 {
+  margin-bottom: 10rem;
+  margin-top: auto;
+  flex: 40%;
+  z-index: 1; }

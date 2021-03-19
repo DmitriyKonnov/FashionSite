@@ -1,2 +1,38 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  width: 100%;
+  max-width: 1150px;
+  z-index: 1000; }
+
 .nav__logo {
-  font-size: 20px; }
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .nav__logo:hover {
+    cursor: pointer; }
+
+.nav__main-menu {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+.nav__main-menu_item {
+  margin: 0 0 0 3rem; }
+  .nav__main-menu_item:hover {
+    cursor: pointer; }
+
+.nav__side-menu {
+  display: flex; }
+
+.nav__side-menu_item {
+  margin: 0 0 0 4rem; }
+  .nav__side-menu_item:hover {
+    cursor: pointer; }
+  .nav__side-menu_item img {
+    display: block;
+    width: 2rem;
+    height: 2rem; }
