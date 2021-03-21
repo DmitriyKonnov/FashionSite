@@ -1,9 +1,42 @@
 .btn {
   display: block;
-  width: 15rem;
-  height: 3.5rem;
   background-color: $main-font_color;
   text-align: center;
   color: #ffffff;
   text-decoration: none;
+}
+
+.herader__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 15rem;
+  height: 3.5rem;
+
+  margin-right: 3.5rem;
+  text-transform: uppercase;
+
+  font-size: 1.8rem;
+  line-height: 1.5;
+
+  &:hover {
+    box-shadow: 0 4px 4px rgba($color: #000000, $alpha: 0.25);
+  }
+}
+
+.catagory__btn {
+  padding: 0.5rem 2.5rem;
+
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+
+  text-transform: uppercase;
+
+  &:hover {
+    box-shadow: 0 4px 4px rgba($color: #000000, $alpha: 0.25);
+    color: $main-font_color;
+    background-color: #ffffff;
+  }
 }
