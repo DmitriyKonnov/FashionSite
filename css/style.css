@@ -738,7 +738,24 @@ body {
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.5;
-  max-width: 40rem; }
+  max-width: 40rem;
+  margin-bottom: 4rem; }
+
+.footer__location {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #22262a; }
+  .footer__location .footer__location-img {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 2.5rem; }
+  .footer__location:hover {
+    text-decoration: underline; }
 
 .footer__content_block2 {
   flex: 50%; }
