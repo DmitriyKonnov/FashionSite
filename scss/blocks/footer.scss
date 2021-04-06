@@ -1,5 +1,5 @@
 .footer {
-  height: 60rem;
+  padding: 11rem 0;
   width: 100%;
 
   background-color: #f2f8fc;
@@ -48,6 +48,8 @@
   text-decoration: none;
   color: $main-font_color;
 
+  margin-bottom: 1.5rem;
+
   .footer__location-img {
     position: relative;
     top: -1px;
@@ -60,6 +62,50 @@
 
   &:hover {
     text-decoration: underline;
+  }
+}
+
+.footer__email {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  color: $main-font_color;
+
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.footer__phone {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  color: $main-font_color;
+
+  text-decoration: none;
+
+  margin-bottom: 1.5rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.social__links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 12rem;
+}
+
+.social__links-item {
+  img {
+    display: block;
+    width: 2rem;
+    height: 2rem;
   }
 }
 
