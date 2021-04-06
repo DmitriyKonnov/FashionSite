@@ -621,7 +621,8 @@ body {
 
 .goods__inner {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
 
 .goods__item {
   max-width: 27rem;
@@ -710,7 +711,7 @@ body {
   line-height: 1.5; }
 
 .footer {
-  height: 60rem;
+  padding: 11rem 0;
   width: 100%;
   background-color: #f2f8fc; }
 
@@ -746,7 +747,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   text-decoration: none;
-  color: #22262a; }
+  color: #22262a;
+  margin-bottom: 1.5rem; }
   .footer__location .footer__location-img {
     position: relative;
     top: -1px;
@@ -756,6 +758,51 @@ body {
     margin-right: 2.5rem; }
   .footer__location:hover {
     text-decoration: underline; }
+
+.footer__email {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #22262a;
+  text-decoration: none; }
+  .footer__email:hover {
+    text-decoration: underline; }
+
+.footer__phone {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #22262a;
+  text-decoration: none;
+  margin-bottom: 1.5rem; }
+  .footer__phone:hover {
+    text-decoration: underline; }
+
+.social__links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 16rem; }
+
+.social__links-item {
+  width: 3rem;
+  height: 3rem; }
+  .social__links-item img {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover; }
+
+.social__links-img {
+  fill: #010002;
+  transition: 0.5s; }
+  .social__links-img#facebook:hover {
+    fill: #3b5998; }
+  .social__links-img#instagram:hover {
+    fill: #eb1567; }
+  .social__links-img#twitter:hover {
+    fill: #00acee; }
+  .social__links-img#linkedin:hover {
+    fill: #0288d1; }
 
 .footer__content_block2 {
   flex: 50%; }

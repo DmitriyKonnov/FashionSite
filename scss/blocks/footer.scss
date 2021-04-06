@@ -98,14 +98,35 @@
 .social__links {
   display: flex;
   justify-content: space-between;
-  max-width: 12rem;
+  max-width: 16rem;
 }
 
 .social__links-item {
+  width: 3rem;
+  height: 3rem;
+
   img {
     display: block;
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+  }
+}
+
+.social__links-img {
+  fill: #010002;
+  transition: 0.5s;
+  &#facebook:hover {
+    fill: #3b5998;
+  }
+  &#instagram:hover {
+    fill: #eb1567;
+  }
+  &#twitter:hover {
+    fill: #00acee;
+  }
+  &#linkedin:hover {
+    fill: #0288d1;
   }
 }
 
