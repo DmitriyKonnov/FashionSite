@@ -163,7 +163,7 @@
   }
 
   &:focus-within {
-    box-shadow: 0 4px 4px rgba($color: #000000, $alpha: 0.2);
+    box-shadow: 0 4px 4px rgba($color: #000000, $alpha: 0.5);
   }
 }
 
@@ -188,4 +188,9 @@
 
     color: $main-font_color;
   }
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
 }

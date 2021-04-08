@@ -834,7 +834,7 @@ body {
   .footer__add:hover {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); }
   .footer__add:focus-within {
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); }
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5); }
 
 .footer__form {
   width: 100%;
@@ -851,3 +851,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #22262a; }
+
+.footer__nav {
+  display: flex;
+  justify-content: space-between; }
