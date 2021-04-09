@@ -734,7 +734,6 @@ body {
   flex-wrap: wrap;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding-right: 1rem; }
 
 .footer__logo {
@@ -830,6 +829,7 @@ body {
   height: 4.5rem;
   border-radius: 0.5rem;
   background-color: #fff;
+  margin-bottom: 8rem;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.07); }
   .footer__add:hover {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); }
@@ -855,3 +855,21 @@ body {
 .footer__nav {
   display: flex;
   justify-content: space-between; }
+
+.footer__nav-title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding-bottom: 1rem; }
+
+.footer__nav-block__item {
+  margin-top: 2rem; }
+
+.footer__nav_item-link {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #22262a; }
+  .footer__nav_item-link:hover {
+    text-decoration: underline; }
