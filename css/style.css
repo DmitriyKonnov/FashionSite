@@ -471,7 +471,6 @@ body {
   margin-bottom: 12rem; }
 
 .header__page {
-  display: flex;
   height: calc(100vh - 80px);
   width: 100%;
   position: relative;
@@ -487,13 +486,15 @@ body {
     object-fit: cover;
     z-index: 0; }
 
-.header__page_block1 {
-  flex: 60%; }
+.header__page_blocks {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between; }
 
 .header__page_block2 {
   margin-bottom: 10rem;
   margin-top: auto;
-  flex: 40%;
   z-index: 1; }
 
 .header__title {
