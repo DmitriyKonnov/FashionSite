@@ -25,6 +25,10 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  @media (max-width: 590px) {
+    justify-content: center;
+  }
 }
 
 .goods__item {
