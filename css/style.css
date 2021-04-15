@@ -570,6 +570,9 @@ body {
   flex-direction: column;
   justify-content: space-between;
   max-width: 55rem; }
+  @media (max-width: 590px) {
+    .category__content-left {
+      display: none; } }
 
 .category__contrnt-left_top {
   margin-bottom: 2rem;
