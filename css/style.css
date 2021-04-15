@@ -694,20 +694,17 @@ body {
 
 .tachen {
   width: 100%;
-  height: 74.5rem; }
-
-.tachen__content {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 100%;
-  text-transform: uppercase;
+  height: 74.5rem;
   background: url(/icons/tachen.jpg) center center no-repeat;
   background-size: cover; }
 
+.tachen__content {
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase; }
+
 .tachen__content_block-1 {
-  padding-top: 43rem;
-  padding-left: 23rem; }
+  padding-top: 43rem; }
 
 .tachen__subtitle {
   font-size: 1.8rem;
