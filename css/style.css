@@ -662,7 +662,7 @@ body {
 
 .goods__img-block {
   max-width: 27rem;
-  max-height: 37rem;
+  height: 37rem;
   margin-bottom: 4rem;
   overflow: hidden; }
   .goods__img-block .goods__img {
@@ -717,7 +717,7 @@ body {
 .tachen {
   width: 100%;
   height: 74.5rem;
-  background: url("../icons/tachen.jpg") center center no-repeat;
+  background: url("../icons/img/pexels-photo-291762.jpeg") center center no-repeat;
   background-size: cover; }
 
 .tachen__content {
